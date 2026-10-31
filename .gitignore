@@ -1,0 +1,36 @@
+# Credentials and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.pfx
+*.p12
+*password*
+client.keys
+wazuh-install-files.tar
+wazuh-install-files/
+
+# VM images and installation media
+*.iso
+*.vdi
+*.vmdk
+*.vhd
+*.vhdx
+*.ova
+*.ovf
+*.sav
+*.vbox
+*.vbox-prev
+
+# Raw logs and exports require separate review before publication
+*.log
+raw-logs/
+private/
+*.evtx
+
+# Local editor / OS files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
